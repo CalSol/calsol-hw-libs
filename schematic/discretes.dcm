@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Fuse
+D Fuse
+$ENDCMP
+#
+$CMP LT1761
+D LDO, Fixed output
+K LDO
+$ENDCMP
+#
+#End Doc Library

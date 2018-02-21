@@ -1,0 +1,72 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS123
+D N-CH 100V 170MA SOT-23
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP BSS83P
+D -60V Vds, -0.33A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.farnell.com/datasheets/1835997.pdf
+$ENDCMP
+#
+$CMP BSS84
+D -50V Vds, -0.13A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
+$ENDCMP
+#
+$CMP BUK9875-100A
+D N-CH 100V 7A SOT223 MEDIUMBOYE
+K NMOS n-mos n-mosfet transistor
+F https://www.digikey.com/product-detail/en/nexperia-usa-inc/BUK9875-100A-CUX/1727-2228-2-ND/5361182
+$ENDCMP
+#
+$CMP DMP3010LK3
+D -30V Vds, -17A Id, P-Channel MOSFET, TO-252-3
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP NTR2101P
+D -8V Vds, -3.7A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
+$ENDCMP
+#
+$CMP NZH18C,115
+D DIODE ZENER 18V 500MW SOD123F
+K diode Schottky
+$ENDCMP
+#
+$CMP PSMN2R0-30YL
+D N-CH 30V 100A LFPAK
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP SMAJ13A
+D TVS Diode 13V Standoff
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP SMAJ16A
+D TVS Diode 16V Standoff
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP TP0610T
+D -60V Vds, -0.18A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP VP0610T
+D -60V Vds, -0.18A Id, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+#End Doc Library

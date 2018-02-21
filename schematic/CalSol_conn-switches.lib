@@ -1,0 +1,203 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 7460307
+#
+DEF 7460307 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "7460307" 0 -100 50 H V C CNN
+F2 "layout:WE_Screwterm_M4_8P" 860 100 50 H I C CNN
+F3 "https://media.digikey.com/PDF/Data%20Sheets/Wurth%20Electronics%20PDFs/Bushes.pdf" 230 200 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 7796
+#
+DEF 7796 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "7796" 0 -100 50 H V C CNN
+F2 "layout:Keystone_5mm_7mm_1.85mmD" -100 0 50 H I C CNN
+F3 "http://keyelco.com/userAssets/file/M65p66.pdf" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 8191
+#
+DEF 8191 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "8191" 0 -100 50 H V C CNN
+F2 "layout:Keystone_5mm_7mm_1.85mmD" -100 0 50 H I C CNN
+F3 "http://keyelco.com/userAssets/file/M65p66.pdf" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ADTSM32RVTR
+#
+DEF ADTSM32RVTR SW 0 0 Y N 1 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "ADTSM32RVTR" 0 -100 50 H V C CNN
+F2 "Buttons_Switches_SMD:SW_SPST_EVQPE1" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CST-100II,2
+#
+DEF CST-100II,2 J 0 40 Y Y 1 F N
+F0 "J" 100 50 60 H V C CNN
+F1 "CST-100II,2" 100 -250 60 H V C CNN
+F2 "" 0 -100 60 H I C CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F82056_MTA%7F0608%7Fpdf%7FEnglish%7FENG_DS_82056_MTA_0608.pdf" 100 250 60 H I C CNN
+DRAW
+S 0 0 200 -200 0 1 0 N
+X ~ 1 -200 -50 200 R 50 50 1 1 P
+X ~ 2 -200 -150 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# G5CA-1E
+#
+DEF G5CA-1E K 0 40 Y Y 1 F N
+F0 "K" 550 350 50 H V L CNN
+F1 "G5CA-1E" 550 250 50 H V L CNN
+F2 "layout:G5CA-1A-E" 550 150 50 H I L CNN
+F3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5ca.pdf" 1100 -300 50 H I C CNN
+$FPLIST
+ Relay?SPST?NO?OMRON?G5Q*
+$ENDFPLIST
+DRAW
+P 2 0 0 0 400 350 400 400 N
+P 4 0 0 0 400 350 400 300 375 325 400 350 N
+S -200 400 500 0 0 1 10 f
+S -125 275 125 125 0 1 10 N
+P 2 0 1 10 -100 125 100 275 N
+P 2 0 1 0 0 0 0 125 N
+P 2 0 1 0 0 400 0 275 N
+P 2 0 1 10 125 200 150 200 N
+P 2 0 1 10 175 200 200 200 N
+P 2 0 1 10 225 200 250 200 N
+P 2 0 1 10 225 200 250 200 N
+P 2 0 1 10 275 200 300 200 N
+P 2 0 1 10 325 200 350 200 N
+P 2 0 1 20 400 100 325 350 N
+P 2 0 1 0 400 100 400 0 N
+X ~ 1 0 -100 100 U 50 50 1 1 P
+X ~ 2 0 500 100 D 50 50 1 1 P
+X ~ 3 400 500 100 D 50 50 1 1 P
+X ~ 4 400 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Phoenix-1935174
+#
+DEF Phoenix-1935174 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Phoenix-1935174" 0 -200 50 H V C CNN
+F2 "CalSol_Layout:Phoenix-1935174" 10 340 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935174.pdf" 0 200 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Phoenix_1935187
+#
+DEF Phoenix_1935187 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Phoenix_1935187" 0 -300 50 H V C CNN
+F2 "CalSol_Layout:Phoenix_1935187" 100 440 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935187.pdf" 260 320 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_SPST
+#
+DEF SW_SPST SW 0 0 Y N 1 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "SW_SPST" 0 -100 50 H V C CNN
+F2 "Buttons_Switches_SMD:SW_SPST_EVQPE1" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

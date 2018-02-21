@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7V-12.000MAHE-T
+D XTAL 12MHZ 12PF SMD
+$ENDCMP
+#
+$CMP Crystal
+D 12 MHz Crystal
+$ENDCMP
+#
+#End Doc Library

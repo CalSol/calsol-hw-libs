@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# LT1366CN8
+#
+DEF LT1366CN8 A 0 40 Y Y 1 F N
+F0 "A" 0 350 60 H V C CNN
+F1 "LT1366CN8" 0 -400 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "http://cds.linear.com/docs/en/datasheet/1366fb.pdf" 0 -500 60 H V C CNN
+DRAW
+S -250 300 250 -350 0 1 0 N
+X OutA 1 -450 200 200 R 50 50 1 1 I
+X -InA 2 -450 50 200 R 50 50 1 1 I
+X +InA 3 -450 -100 200 R 50 50 1 1 I
+X V- 4 -450 -250 200 R 50 50 1 1 I
+X +InB 5 450 -250 200 L 50 50 1 1 I
+X -InB 6 450 -100 200 L 50 50 1 1 I
+X OutB 7 450 50 200 L 50 50 1 1 I
+X V+ 8 450 200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

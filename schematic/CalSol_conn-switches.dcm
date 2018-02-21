@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7460307
+D TERM PWR ELEMENT M4 8 PIN PCB
+$ENDCMP
+#
+$CMP 7796
+D TERM SCREW M4 4 PIN PCB
+$ENDCMP
+#
+$CMP 8191
+D TERM SCREW 6-32 4 PIN PCB
+K connector
+F ~
+$ENDCMP
+#
+$CMP ADTSM32RVTR
+D Single Pole Single Throw (SPST) switch
+K switch lever
+$ENDCMP
+#
+$CMP G5CA-1E
+D Omron G5C relay, Miniature Single Pole, SPST-NO, 15A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+$CMP Phoenix-1935174
+D TERM BLOCK PCB 3POS 5.0MM
+K connector
+F ~
+$ENDCMP
+#
+$CMP Phoenix_1935187
+D Generic connector, single row, 01x04
+K connector
+F ~
+$ENDCMP
+#
+$CMP SW_SPST
+D Single Pole Single Throw (SPST) switch
+K switch lever
+$ENDCMP
+#
+#End Doc Library
