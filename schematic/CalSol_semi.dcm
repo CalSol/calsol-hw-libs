@@ -57,6 +57,12 @@ K diode
 F https://en.wikipedia.org/wiki/Zener_diode
 $ENDCMP
 #
+$CMP Si4497DY
+D -30V Vds, -36A Id, P-Channel MOSFET, SO-8
+K P-Channel MOSFET
+F http://www.vishay.com/docs/65748/si4497dy.pdf
+$ENDCMP
+#
 $CMP TP0610T
 D -60V Vds, -0.18A Id, P-Channel MOSFET, SOT-23-3
 K P-Channel MOSFET
