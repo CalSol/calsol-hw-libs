@@ -29,6 +29,11 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
+$CMP LMC6762
+D Dual MicroPower Rail-To-Rail Input CMOS Comparator with Push-Pull Output
+F http://www.ti.com/lit/ds/symlink/lmc6762.pdf
+$ENDCMP
+#
 $CMP NTR2101P
 D -8V Vds, -3.7A Id, P-Channel MOSFET, SOT-23-3
 K P-Channel MOSFET

@@ -8,4 +8,10 @@ $CMP Crystal
 D 12 MHz Crystal
 $ENDCMP
 #
+$CMP SN74AUP2G08
+D Dual And2
+K TTL and2
+F http://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf
+$ENDCMP
+#
 #End Doc Library
