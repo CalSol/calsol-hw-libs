@@ -62,6 +62,12 @@ K diode
 F https://en.wikipedia.org/wiki/Zener_diode
 $ENDCMP
 #
+$CMP SQJ951EP
+D -30V Vds, -30A Id, Dual P-Channel MOSFET, PowerPAK SO-8
+K Dual P-Channel MOSFET
+F http://www.vishay.com/docs/63658/sqj951ep.pdf
+$ENDCMP
+#
 $CMP Si4497DY
 D -30V Vds, -36A Id, P-Channel MOSFET, SO-8
 K P-Channel MOSFET
