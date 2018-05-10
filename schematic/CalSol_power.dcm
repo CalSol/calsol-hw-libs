@@ -34,6 +34,16 @@ D REF3030
 F http://www.ti.com/lit/ds/symlink/ref3030.pdf
 $ENDCMP
 #
+$CMP Transformer_LPD6235
+D Transformer, single primary, single secondary
+K transformer coil magnet
+$ENDCMP
+#
+$CMP Transformer_MSD7342
+D Transformer, single primary, single secondary
+K transformer coil magnet
+$ENDCMP
+#
 $CMP V110B12C200BL
 D Vicor 110V to 12V Isolated DC/DC
 $ENDCMP
