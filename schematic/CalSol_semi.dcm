@@ -29,6 +29,11 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
+$CMP LMC6762
+D Dual MicroPower Rail-To-Rail Input CMOS Comparator with Push-Pull Output
+F http://www.ti.com/lit/ds/symlink/lmc6762.pdf
+$ENDCMP
+#
 $CMP NTR2101P
 D -8V Vds, -3.7A Id, P-Channel MOSFET, SOT-23-3
 K P-Channel MOSFET
@@ -55,6 +60,18 @@ $CMP SMAJ16A
 D TVS Diode 16V Standoff
 K diode
 F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP SQJ951EP
+D -30V Vds, -30A Id, Dual P-Channel MOSFET, PowerPAK SO-8
+K Dual P-Channel MOSFET
+F http://www.vishay.com/docs/63658/sqj951ep.pdf
+$ENDCMP
+#
+$CMP Si4497DY
+D -30V Vds, -36A Id, P-Channel MOSFET, SO-8
+K P-Channel MOSFET
+F http://www.vishay.com/docs/65748/si4497dy.pdf
 $ENDCMP
 #
 $CMP TP0610T

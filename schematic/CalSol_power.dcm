@@ -4,6 +4,27 @@ $CMP +5VFiltered
 K POWER, PWR
 $ENDCMP
 #
+$CMP LT1512
+D LT1512 SEPIC Constant-Current/Constant-Voltage Battery Charger
+K Charger
+F http://cds.linear.com/docs/en/datasheet/1512fc.pdf
+$ENDCMP
+#
+$CMP LTC2943
+D LTC2943 Multicell Battery Gas Gauge
+F http://cds.linear.com/docs/en/datasheet/2943fa.pdf
+$ENDCMP
+#
+$CMP LTC4079
+D LTC4079 60V, 250mA Linear Charger
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4079f.pdf
+$ENDCMP
+#
+$CMP MIC5014
+D MIC5014 High/Low-side MOSFET Driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5014.pdf
+$ENDCMP
+#
 $CMP R1SE-0512/H2-R
 D CONV DC/DC 1W 05VIN 12VOUT
 $ENDCMP
@@ -11,6 +32,16 @@ $ENDCMP
 $CMP REF3030
 D REF3030
 F http://www.ti.com/lit/ds/symlink/ref3030.pdf
+$ENDCMP
+#
+$CMP Transformer_LPD6235
+D Transformer, single primary, single secondary
+K transformer coil magnet
+$ENDCMP
+#
+$CMP Transformer_MSD7342
+D Transformer, single primary, single secondary
+K transformer coil magnet
 $ENDCMP
 #
 $CMP V110B12C200BL

@@ -6,15 +6,16 @@ K diode
 F https://en.wikipedia.org/wiki/Zener_diode
 $ENDCMP
 #
-$CMP LPC1549JDB64
-D LPC1549JDB64
-F https://www.nxp.com/docs/en/data-sheet/LPC15XX.pdf
-$ENDCMP
-#
 $CMP PESD1CAN
 D Zener Diode
 K diode
 F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP PSMN2R0-25MLD
+D PSMN2R0-25MLD
+K N-channel 25 V, 2.1 mΩ logic level MOSFET in LFPAK33
+F https://assets.nexperia.com/documents/data-sheet/PSMN2R0-25MLD.pdf
 $ENDCMP
 #
 #End Doc Library

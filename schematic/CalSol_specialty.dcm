@@ -4,8 +4,18 @@ $CMP 7V-12.000MAHE-T
 D XTAL 12MHZ 12PF SMD
 $ENDCMP
 #
+$CMP 7V-12.000MAHE-T_L
+D XTAL 12MHZ 12PF SMD
+$ENDCMP
+#
 $CMP Crystal
 D 12 MHz Crystal
+$ENDCMP
+#
+$CMP SN74AUP2G08
+D Dual And2
+K TTL and2
+F http://www.ti.com/lit/ds/symlink/sn74aup2g08.pdf
 $ENDCMP
 #
 #End Doc Library
