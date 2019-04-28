@@ -25,7 +25,7 @@ D MIC5014 High/Low-side MOSFET Driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5014.pdf
 $ENDCMP
 #
-$CMP R1SE-0512/H2-R
+$CMP R1SE-0512_H2-R
 D CONV DC/DC 1W 05VIN 12VOUT
 $ENDCMP
 #
@@ -45,6 +45,10 @@ K transformer coil magnet
 $ENDCMP
 #
 $CMP V110B12C200BL
+D Vicor 110V to 12V Isolated DC/DC
+$ENDCMP
+#
+$CMP V150C12C150BL
 D Vicor 110V to 12V Isolated DC/DC
 $ENDCMP
 #

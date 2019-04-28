@@ -1,4 +1,4 @@
-(module R_0201_SM (layer F.Cu) (tedit 5991E0A0)
+(module R_0201 (layer F.Cu) (tedit 5CC624C6)
   (descr "Resistor SMD 0201, from DipTrace + hand soldering - DC")
   (tags "resistor 0201")
   (attr smd)
@@ -17,7 +17,7 @@
   (fp_line (start 0.55 0.36) (end -0.55 0.36) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -0.31 0) (size 0.37 0.41) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.31 0) (size 0.37 0.41) (layers F.Cu F.Paste F.Mask))
-  (model Resistors_SMD.3dshapes/R_0201.wrl
+  (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0201_0603Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

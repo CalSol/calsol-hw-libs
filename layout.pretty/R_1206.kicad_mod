@@ -1,4 +1,4 @@
-(module R_1206_SM (layer F.Cu) (tedit 5991DFD7)
+(module R_1206 (layer F.Cu) (tedit 5CC624F7)
   (descr "Resistor SMD 1206, from DipTrace + hand soldering - DC")
   (tags "resistor 1206")
   (attr smd)
@@ -19,7 +19,7 @@
   (fp_line (start 2.54 1.1) (end -2.54 1.1) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -1.559 0) (size 1.397 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.559 0) (size 1.397 1.8) (layers F.Cu F.Paste F.Mask))
-  (model Resistors_SMD.3dshapes/R_1206.wrl
+  (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
