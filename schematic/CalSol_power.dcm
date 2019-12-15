@@ -10,12 +10,6 @@ K Charger
 F http://cds.linear.com/docs/en/datasheet/1512fc.pdf
 $ENDCMP
 #
-$CMP LT3014BES5-5
-D Low Dropout Regulator
-K LT3014B
-F https://www.analog.com/media/en/technical-documentation/data-sheets/3014bfb.pdf
-$ENDCMP
-#
 $CMP LTC2943
 D LTC2943 Multicell Battery Gas Gauge
 F http://cds.linear.com/docs/en/datasheet/2943fa.pdf
@@ -31,7 +25,7 @@ D MIC5014 High/Low-side MOSFET Driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5014.pdf
 $ENDCMP
 #
-$CMP R1SE-0512_H2-R
+$CMP R1SE-0512/H2-R
 D CONV DC/DC 1W 05VIN 12VOUT
 $ENDCMP
 #
