@@ -1,4 +1,4 @@
-(module EnclosureOutline_PN-1323 (layer F.Cu) (tedit 5E0D8EAB)
+(module EnclosureOutline_PN-1323 (layer F.Cu) (tedit 5E3BC172)
   (fp_text reference REF** (at 0 40.64) (layer Edge.Cuts) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start -51 29.6) (end -51 20.1) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (fp_arc (start 51 29.6) (end 41.5 29.6) (angle 89.9) (layer Edge.Cuts) (width 0.15))
+  (fp_arc (start 51 29.6) (end 41.5 29.6) (angle 90) (layer Edge.Cuts) (width 0.15))
   (fp_arc (start 51 -29.6) (end 51 -20.1) (angle 90) (layer Edge.Cuts) (width 0.15))
   (fp_arc (start -51 -29.6) (end -41.5 -29.6) (angle 90) (layer Edge.Cuts) (width 0.15))
   (fp_line (start -41.5 38.5) (end -41.5 29.6) (layer Edge.Cuts) (width 0.15))
