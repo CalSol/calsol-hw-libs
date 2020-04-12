@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Cyclone10_10CL025Y
+D Cyclone 10 FPGA, 24624 LEs, 1.2V Core, QFP-144
+K fpga cyclone
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/cyclone-10/c10lp-51002.pdf
+$ENDCMP
+#
+$CMP Cyclone10_10CL025Z
+D Cyclone 10 FPGA, 24624 LEs, 1.0V Core, QFP-144
+K fpga cyclone
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/cyclone-10/c10lp-51002.pdf
+$ENDCMP
+#
+#End Doc Library
