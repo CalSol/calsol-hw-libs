@@ -10,6 +10,11 @@ K Charger
 F http://cds.linear.com/docs/en/datasheet/1512fc.pdf
 $ENDCMP
 #
+$CMP LT8301
+D Micropower No-Opto Isolated Flyback Converter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT8301.pdf
+$ENDCMP
+#
 $CMP LTC2943
 D LTC2943 Multicell Battery Gas Gauge
 F http://cds.linear.com/docs/en/datasheet/2943fa.pdf
