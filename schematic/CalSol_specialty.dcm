@@ -12,6 +12,12 @@ $CMP Crystal
 D 12 MHz Crystal
 $ENDCMP
 #
+$CMP SCL3300-D01
+D 3-axis inclinometer with angle output
+K Tilt
+F https://www.murata.com/~/media/webrenewal/products/sensor/pdf/datasheet/datasheet_scl3300-d01.ashx?la=en-us
+$ENDCMP
+#
 $CMP SN74AUP2G08
 D Dual And2
 K TTL and2
