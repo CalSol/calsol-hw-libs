@@ -12,6 +12,10 @@ $CMP Crystal
 D 12 MHz Crystal
 $ENDCMP
 #
+$CMP PCF2129T
+F https://www.nxp.com/docs/en/data-sheet/PCF2129.pdf
+$ENDCMP
+#
 $CMP SCL3300-D01
 D 3-axis inclinometer with angle output
 K Tilt
