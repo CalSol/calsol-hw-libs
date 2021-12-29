@@ -1,4 +1,4 @@
-(module C_1210 (layer F.Cu) (tedit 61CBA10C)
+(module C_1210 (layer F.Cu) (tedit 61CC9BD0)
   (descr "Capacitor SMD 1210, from DipTrace")
   (tags "capacitor 1210")
   (attr smd)
@@ -21,7 +21,7 @@
   (fp_line (start 2.25 1.5) (end -2.25 1.5) (layer F.CrtYd) (width 0.05))
   (pad 1 smd roundrect (at -1.4 0) (size 1.6 2.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 2 smd roundrect (at 1.4 0) (size 1.6 2.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model Capacitors_SMD.3dshapes/C_1210.wrl
+  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

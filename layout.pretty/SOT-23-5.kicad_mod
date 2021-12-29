@@ -1,4 +1,4 @@
-(module SOT-23-5 (layer F.Cu) (tedit 61CBA2C1)
+(module SOT-23-5 (layer F.Cu) (tedit 61CC9FF8)
   (descr "SOT-23, 5-pin version")
   (tags SOT-23)
   (attr smd)
@@ -22,7 +22,7 @@
   (pad 3 smd roundrect (at -1.15 0.95) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at 1.15 0.95) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 5 smd roundrect (at 1.15 -0.95) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model TO_SOT_Packages_SMD.3dshapes/SOT-23-5.wrl
+  (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

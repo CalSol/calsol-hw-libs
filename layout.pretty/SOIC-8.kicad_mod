@@ -1,4 +1,4 @@
-(module SOIC-8 (layer F.Cu) (tedit 61CBA2AA)
+(module SOIC-8 (layer F.Cu) (tedit 61CCA361)
   (fp_text reference U16 (at 0 -3.556) (layer F.SilkS)
     (effects (font (size 0.6985 0.4445) (thickness 0.111125)))
   )
@@ -19,14 +19,9 @@
   (pad 7 smd roundrect (at 2.7 -0.635) (size 2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 6 smd roundrect (at 2.7 0.635) (size 2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 8 smd roundrect (at 2.7 -1.905) (size 2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/calisco-hw-libs/solid-models/soic-8_150mil.STEP
-    (offset (xyz -0.5 0 -7.52))
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
-  (model ${KIPRJMOD}/../calisco-hw-libs/solid-models/soic-8_150mil.STEP
-    (offset (xyz -0.5 0 -7.52))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 0 0 0))
   )
 )

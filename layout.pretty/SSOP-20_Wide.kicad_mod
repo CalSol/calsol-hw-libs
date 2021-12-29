@@ -1,4 +1,4 @@
-(module SSOP-20_Wide (layer F.Cu) (tedit 61CBA2ED)
+(module SSOP-20_Wide (layer F.Cu) (tedit 61CCA473)
   (descr "SSOP 20 pins")
   (tags "CMS SSOP SMD")
   (attr smd)
@@ -34,9 +34,9 @@
   (pad 18 smd roundrect (at -1.6256 -3.5941) (size 0.4064 1.8034) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 19 smd roundrect (at -2.286 -3.5941) (size 0.4064 1.8034) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 20 smd roundrect (at -2.921 -3.5941) (size 0.4064 1.8034) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model SMD_Packages.3dshapes/SSOP-20.wrl
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SSOP-20_5.3x7.2mm_P0.65mm.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.255 0.33 0.3))
-    (rotate (xyz 0 0 0))
+    (scale (xyz 1 1 1.1))
+    (rotate (xyz 0 0 -90))
   )
 )

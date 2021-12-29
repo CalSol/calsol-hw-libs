@@ -1,4 +1,4 @@
-(module SOIC-16 (layer F.Cu) (tedit 61CBA2B2)
+(module SOIC-16 (layer F.Cu) (tedit 61CCA37A)
   (fp_text reference U5 (at 0 -5.842) (layer F.SilkS)
     (effects (font (size 0.6985 0.4445) (thickness 0.111125)))
   )
@@ -27,14 +27,9 @@
   (pad 11 smd roundrect (at 2.7 1.905) (size 2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 10 smd roundrect (at 2.7 3.175) (size 2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 9 smd roundrect (at 2.7 4.445) (size 2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/kicad-library/solid-models/soic-16_150mil.step
-    (offset (xyz 0 0 0.5))
+  (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.wrl
+    (offset (xyz 0 0 0.50038))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
-  (model ${KIPRJMOD}/../kicad-library/solid-models/soic-16_150mil.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 0 0 0))
   )
 )
