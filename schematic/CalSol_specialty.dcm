@@ -12,6 +12,10 @@ $CMP Crystal
 D 12 MHz Crystal
 $ENDCMP
 #
+$CMP PCF2129AT
+F https://www.nxp.com/docs/en/data-sheet/PCF2129.pdf
+$ENDCMP
+#
 $CMP PCF2129T
 F https://www.nxp.com/docs/en/data-sheet/PCF2129.pdf
 $ENDCMP
