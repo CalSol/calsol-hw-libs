@@ -39,4 +39,9 @@
     (scale (xyz 1 1 1.1))
     (rotate (xyz 0 0 -90))
   )
+  (model ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-20_5.3x7.2mm_P0.65mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1.1))
+    (rotate (xyz 0 0 -90))
+  )
 )
