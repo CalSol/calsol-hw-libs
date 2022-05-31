@@ -9,7 +9,7 @@
   (fp_line (start -42.6 17.2) (end -51.5 17.2) (layer Edge.Cuts) (width 0.15))
   (fp_arc (start -42.6 26.5) (end -42.6 17.2) (angle 90) (layer Edge.Cuts) (width 0.15))
   (fp_arc (start 42.6 -26.5) (end 42.6 -17.2) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (fp_arc (start 51.5 26.5) (end 42.2 26.5) (angle 89.9) (layer Edge.Cuts) (width 0.15))
+  (fp_arc (start 51.5 26.5) (end 42.2 26.5) (angle 90) (layer Edge.Cuts) (width 0.15))
   (fp_arc (start -51.5 -26.5) (end -42.2 -26.5) (angle 90) (layer Edge.Cuts) (width 0.15))
   (fp_line (start 51.5 -17.2) (end 51.5 17.2) (layer Edge.Cuts) (width 0.15))
   (fp_line (start -51.5 -17.2) (end -51.5 17.2) (layer Edge.Cuts) (width 0.15))
